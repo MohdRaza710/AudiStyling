@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+.frImage {
+  background-image: url(./assets/image1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.frText {
+  color: white;
+  padding: 0.5%;
+  margin-top: 15rem;
+  padding-left: 3rem;
+}
+
+.frText1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+.frText2 {
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 0;
+}
+.frText3 {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-left: 50px;
+  color: #333333;
+}
+
+.learn-more {
+  margin-top: 1rem;
+  font-size: 3vh;
+  width: 9em;
+  height: 3em;
+}
+
+.articles-section {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #333;
+}
+
+.articles-grid {
+  display: grid;
+
+  /* Defines the grid layout with two columns and two rows */
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "item1 item2"
+    "item3 item3";
+}
+
+/* Assigns each article card to its specific grid area */
+.article-card:nth-child(1) {
+  grid-area: item1;
+}
+
+.article-card:nth-child(2) {
+  grid-area: item2;
+}
+
+.article-card:nth-child(3) {
+  grid-area: item3;
+}
+
+.article-card img {
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.article-date {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.article-title {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* We remove flex-grow to stop the vertical alignment */
+.article-description {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+  /* Add some space below the description */
+}
+
+
+/* We remove margin-top: auto for the same reason */
+.read-more-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+.article-fine-print {
+  font-size: 0.7em;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* For smaller screens, all articles stack in a single column */
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3";
+  }
+}
