@@ -230,7 +230,7 @@ body {
 
 .md-container {
   text-align: center;
-  padding: 100px ;
+  padding: 100px;
 }
 
 .md-heading {
@@ -244,7 +244,6 @@ body {
   font-size: 1.2em;
   line-height: 1.5;
   margin-bottom: 40px;
-  /* margin-left: 250px; */
 }
 
 .button-container {
@@ -274,4 +273,69 @@ body {
   background-color: #000;
   color: #fff;
   border: 1px solid #fff;
+}
+
+.press-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.sections-title {
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+
+.press-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.press-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.press-title {
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.press-btn {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+.press-btn1 {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  height: 3rem;
+
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .press-grid {
+    grid-template-columns: 1fr;
+  }
 }

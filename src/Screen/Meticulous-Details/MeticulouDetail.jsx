@@ -95,30 +95,30 @@ const MeticulouDetail = () => {
                 </div>
             </div>
 
-            <div>
-                <h2>Press releases</h2>
+            <div className='press-section'>
+                <h2 className='sections-title'>Press releases</h2>
 
-                <div>
-                    <div>
-                        <img src={Image8} alt="" />
-                        <h3>Warning: scam in the used-car trade</h3>
-                        <Button>To the press release</Button>
-                    </div>
-
-                    <div>
-                        <img src={Image9} alt="" />
-                        <h3>Harmony in motion: inside the new Audi Q3</h3>
-                        <Button>To the press release</Button>
+                <div className='press-grid'>
+                    <div className='press-card'>
+                        <img className='press-image' src={Image8} alt="" />
+                        <h3 className='press-title'>Warning: scam in the used-car trade</h3>
+                        <Button className='press-btn'>To the press release</Button>
                     </div>
 
-                    <div>
-                        <img src={Image10} alt="" />
-                        <h3>Revolut becomes title partner of the future Audi F1 Team</h3>
-                        <Button>To the press release</Button>
+                    <div className='press-card'>
+                        <img className='press-image' src={Image9} alt="" />
+                        <h3 className='press-title'>Harmony in motion: inside the new Audi Q3</h3>
+                        <Button className='press-btn'>To the press release</Button>
                     </div>
-                    <div>
-                        <Button>To the Audi MediaCenter</Button>
+
+                    <div className='press-card'>
+                        <img className='press-image' src={Image10} alt="" />
+                        <h3 className='press-title'>Revolut becomes title partner of the future Audi F1 Team</h3>
+                        <Button className='press-btn'>To the press release</Button>
                     </div>
+                </div>
+                <div className='btn-container'>
+                    <Button className='press-btn1'>To the Audi MediaCenter</Button>
                 </div>
             </div>
             <div>
