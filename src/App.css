@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .frImage {
@@ -15,26 +16,25 @@ body {
   margin-bottom: 25px;
 }
 
-.frText {
+.frContainer {
   color: white;
   padding: 0.5%;
   margin-top: 15rem;
   padding-left: 3rem;
 }
 
-.frText1 {
+.frText {
   font-size: 3em;
   margin-bottom: 0.2em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
 }
 
-.frText2 {
+.frText1 {
   font-size: 1.2em;
   font-weight: 400;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top: 0;
 }
+
 .frText3 {
   font-size: 0.8em;
   font-weight: 400;
@@ -47,6 +47,8 @@ body {
   font-size: 3vh;
   width: 9em;
   height: 3em;
+  border: 1px solid black;
+  border-radius: 0;
 }
 
 .articles-section {
@@ -123,6 +125,7 @@ body {
   font-size: 1em;
   display: inline-block;
   margin-bottom: 20px;
+  height: 2.5em;
 }
 
 .read-more-link:hover {
@@ -144,4 +147,131 @@ body {
       "item2"
       "item3";
   }
+}
+
+.audi-work-image {
+  float: right;
+  margin-bottom: 2.5rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  width: 50%;
+}
+
+.audi-work-section {
+  margin-left: 6rem;
+}
+
+.audi-work-heading {
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+
+.audi-work-description {
+  font-size: 1rem;
+  color: #333333;
+}
+
+.audi-work-point {
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+.learn-more1 {
+  margin-top: 1rem;
+  font-size: 3vh;
+  width: 9em;
+  height: 3em;
+  border: 1px solid black;
+  border-radius: 0;
+  margin-bottom: 9rem;
+}
+
+.audi-innovation-image {
+  float: left;
+  margin-left: 3rem;
+  margin-right: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 48.5%;
+}
+
+.audi-innovation-heading {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.audi-innovation-description {
+  font-size: 1rem;
+  margin-right: 3.5rem;
+  color: #333333;
+}
+
+.learn-more2 {
+  margin-top: 1rem;
+  font-size: 3vh;
+  width: 9em;
+  height: 3em;
+  border: 1px solid black;
+  border-radius: 0;
+  margin-bottom: 5rem;
+}
+
+.md-color {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.md-container {
+  text-align: center;
+  padding: 100px ;
+}
+
+.md-heading {
+  font-size: 3em;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.md-text {
+  max-width: 800px;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  /* margin-left: 250px; */
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0;
+  transition: background-color 0.3s, color 0.3s;
+  height: 3rem;
+  width: 200px;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
 }

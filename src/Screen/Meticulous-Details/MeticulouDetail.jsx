@@ -5,6 +5,10 @@ import Image4 from '../../assets/image4.png'
 import Image5 from '../../assets/image5.png'
 import Image6 from '../../assets/image6.png'
 import Image7 from '../../assets/image7.png'
+import Image8 from '../../assets/image8.png'
+import Image9 from '../../assets/image9.png'
+import Image10 from '../../assets/image10.png'
+import Image11 from '../../assets/image11.png'
 import { Button } from 'antd'
 // import { useNavigate } from 'react-router-dom'
 
@@ -14,9 +18,9 @@ const MeticulouDetail = () => {
     return (
         <div>
             <div className='frImage'>
-                <div className='frText'>
-                    <h1 className='frText1'>Meticulous detail</h1>
-                    <span className='frText2'>The aerodynamic design of the new Audi A6 Sedan</span> <br />
+                <div className='frContainer'>
+                    <h1 className='frText'>Meticulous detail</h1>
+                    <span className='frText1'>The aerodynamic design of the new Audi A6 Sedan</span> <br />
                     <Button type='default' className='learn-more'>Learn More</Button>
                 </div>
             </div>
@@ -55,7 +59,75 @@ const MeticulouDetail = () => {
                 </div>
             </div>
             <div>
-                
+                <div className='audi-work-section'>
+                    <img className='audi-work-image' src={Image5} alt="" />
+                    <h3 className='audi-work-heading'>Driven by tech. Driven by people.</h3>
+                    <p className='audi-work-description'>Progress is more than just a matter of technology. It begins in the mind – driven by people who are passionate about what they do, who think ahead, and who don’t let setbacks steer them off course. These people define who we are, and these are the people we need. Progress. Driven by you.</p>
+                    <Button className='learn-more1'>Learn More</Button>
+                </div>
+            </div>
+            <div>
+                <div className='audi-innovation-section'>
+                    <img className='audi-innovation-image' src={Image6} alt="" />
+                    <h3 className='audi-innovation-heading'>Innovation</h3>
+                    <p className='audi-innovation-description'>Audi is changing. Continuously. Discover here how our innovations ensure "Vorsprung durch Technik," how modern technology and progressive thinking characterize Audi, which processes are behind them and how our engineers work to further develop the existing.</p>
+                    <Button className='learn-more1'>Learn More</Button>
+                </div>
+            </div>
+            <div>
+                <div className='audi-work-section'>
+                    <img className='audi-work-image' src={Image7} alt="" />
+                    <h3 className='audi-work-heading'>Sustainability</h3>
+                    <p className='audi-work-description'>Audi takes economic, ecological and social responsibility and has made sustainable business operations an integral part of all of its decisions and products. Find out more about how Audi is shaping the mobility of the future on the basis of a clear strategy.</p>
+                    <Button className='learn-more2'>Learn More</Button>
+                    <p className='audi-work-point'>Power consumption (combined)*: 16,5–13,6 kWh/100km; CO₂ emissions (combined)*: 0 g/km; CO₂ emission class*: A</p>
+                </div>
+            </div>
+            <div className='md-color'>
+                <div className='md-container'>
+                    <h2 className='md-heading'>Audi Report 2024</h2>
+                    <p className='md-text' >Audi wants to shape the mobility of the future and, in the process, be the most progressive premium car manufacturer. Read the Audi Report 2024 to find out how it plans to achieve this. The combined annual and sustainability report from Audi brings together the topics of strategy, finance as well as environmental, social and governance.</p>
+
+                    <div className='button-container'>
+                        <Button className='btn btn-light'>Learn more</Button>
+                        <Button className='btn btn-dark'>Download</Button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>Press releases</h2>
+
+                <div>
+                    <div>
+                        <img src={Image8} alt="" />
+                        <h3>Warning: scam in the used-car trade</h3>
+                        <Button>To the press release</Button>
+                    </div>
+
+                    <div>
+                        <img src={Image9} alt="" />
+                        <h3>Harmony in motion: inside the new Audi Q3</h3>
+                        <Button>To the press release</Button>
+                    </div>
+
+                    <div>
+                        <img src={Image10} alt="" />
+                        <h3>Revolut becomes title partner of the future Audi F1 Team</h3>
+                        <Button>To the press release</Button>
+                    </div>
+                    <div>
+                        <Button>To the Audi MediaCenter</Button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className='audi-innovation-section'>
+                    <img className='audi-innovation-image' src={Image11} alt="" />
+                    <h3 className='audi-innovation-heading'>At Audi you’ll find the right vehicle for every requirement</h3>
+                    <p className='audi-innovation-description'>Sporty, luxurious, or compact – at Audi you will find the right vehicle for every requirement. Discover and configure our series models now.</p>
+                    <span className='audi-work-point'>Power consumption (combined): 18.6–17.5 kWh/100km; CO₂ emissions (combined): 0 g/km; CO₂ emission class: A</span>
+                </div>
             </div>
         </div>
     )
