@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import MeticulouDetail from './Screen/Meticulous-Details/MeticulouDetail'
+import CompanyOverview from './Screen/Company/CompanyOverview'
 
 function App() {
 
   return (
     <>
-      <MeticulouDetail />
+    <CompanyOverview />
     </>
   )
 }
