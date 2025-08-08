@@ -106,9 +106,7 @@ function CompanyOverview() {
             </div>
             <div className='volks-div'>
                 <h3 className='volks-heading'>Audi is ab brand of VOLKSWAGEN GROUP</h3>
-            </div>
-            <div className='volks-div'>
-                <a href="#" className='volks-btn'>learn more</a>
+                <a href="#" className='learn-more-button'>learn more</a>
             </div>
         </div>
     )
