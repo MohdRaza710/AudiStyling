@@ -69,26 +69,27 @@ function Strategy() {
                     <Button className='strategy-more-btn3'>Read More</Button>
                 </div>
             </div>
-            <div className='strategy-section4'>
-                <h2 className='strategy-title4'>You might also be interested in</h2>
-                <div className='strategy-grid4'>
-                    <div className='strategy-card4'>
-                        <img className='strategy-image4' src={Image24} alt="" />
-                        <h4 className='strategy-title4'>Risk Management</h4>
-                        <span className='strategy-description4'>Our Risk Management System (RMS) / Internal Control System (ICS) is based on the internationally recognized COSO framework for enterprise risk management.</span>
-                        <a className='strategy-more-btn4' href="#">Read more<i class="fa-solid fa-angle-right"></i></a>
+            <div className='articles-section'>
+                <h2 className='section-title'>You might also be interested in</h2>
+
+                <div className='articles-grid'>
+                    <div className='article-card'>
+                        <img className='article-image' src={Image24} alt="" />
+                        <h4 className='article-title'>Risk Management</h4>
+                        <p className='article-description'>Our Risk Management System (RMS) / Internal Control System (ICS) is based on the internationally recognized COSO framework for enterprise risk management.</p>
+                        <a className='read-more-link' href="#">Read more<i class="fa-solid fa-angle-right"></i></a>
                     </div>
-                    <div className='strategy-card4'>
-                        <img className='strategy-image4' src={Image23} alt="" />
-                        <h4 className='strategy-title4'>Compliance & Integrity</h4>
-                        <span className='strategy-description4'>The elements of compliance and integrity are firmly anchored in our strategy and culture. They are the basis of our actions at Audi. Our aim is to make decisions in accordance with the relevant laws, internal regulations, and values.</span>
-                        <a className='strategy-more-btn4' href="#">Read more<i class="fa-solid fa-angle-right"></i></a>
+                    <div className='article-card'>
+                        <img className='article-image' src={Image23} alt="" />
+                        <h4 className='article-title'>Compliance & Integrity</h4>
+                        <p className='article-description'>The elements of compliance and integrity are firmly anchored in our strategy and culture. They are the basis of our actions at Audi. Our aim is to make decisions in accordance with the relevant laws, internal regulations, and values.</p>
+                        <a className='read-more-link' href="#">Read more<i class="fa-solid fa-angle-right"></i></a>
                     </div>
-                    <div className='strategy-card4'>
-                        <img className='strategy-image4' src={Image25} alt="" />
-                        <h4 className='strategy-title4'>Whistleblower system</h4>
-                        <span className='strategy-description4'>Protection, fairness and trust for whistleblowers, parties implicated and involved – principles of the Audi Investigation Office and its whistleblowing system</span>
-                        <a className='strategy-more-btn4' href="#">Read more<i class="fa-solid fa-angle-right"></i></a>
+                    <div className='article-card'>
+                        <img className='article-image' src={Image25} alt="" />
+                        <h4 className='article-title'>Whistleblower system</h4>
+                        <p className='article-description'>Protection, fairness and trust for whistleblowers, parties implicated and <br /> involved – principles of the Audi Investigation Office and its whistleblowing <br /> system</p>
+                        <a className='read-more-link' href="#">Read more<i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
