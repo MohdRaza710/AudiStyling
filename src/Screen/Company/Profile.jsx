@@ -13,7 +13,7 @@ function Profile() {
                 <img className='profile-frimage' src={Image17} alt="" />
             </div>
             <div>
-                <div>
+                <div className='profile-section'>
                     <h1 className='profile-heading'>Profile</h1>
                     <p className='profile-description'>The Audi name signifies high-quality vehicles, forward-looking and sustainable drive technology, first-class quality, and progressive design worldwide. The Audi Group includes the Bentley, Lamborghini, and Ducati brands.</p>
                 </div>
