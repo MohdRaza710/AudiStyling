@@ -85,15 +85,15 @@ function CompanyOverview() {
             </div>
             <div className="report-section">
                 <div className="report-image-container">
-                    <img src={Image20} alt="Audi A6 Avant e-tron"/>
+                    <img src={Image20} alt="Audi A6 Avant e-tron" />
                     <br />
                     <br />
                     <br />
                     <br />
                     <br />
-                        <p className="image-caption">
-                            Audi A6 Avant e-tron performance: electric power consumption (combined): 17.0–14.8 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.
-                        </p>
+                    <p className="image-caption">
+                        Audi A6 Avant e-tron performance: electric power consumption (combined): 17.0–14.8 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.
+                    </p>
                 </div>
                 <div className="report-text-container">
                     <h1>Audi Report 2024</h1>

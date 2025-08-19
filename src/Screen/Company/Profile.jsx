@@ -34,30 +34,30 @@ function Profile() {
                     </div>
                 </div>
             </div>
-            <div className='facts-container'>
-                <span className='facts-text'>Facts and Figures</span>
+            <div className='stats-container'>
+                <span className='stats-divider-text'>Facts and Figures</span>
 
-                <Row className="facts-row">
-                    <Col className='facts-items'>
-                        <p className='facts-label'>more than</p>
-                        <h2 className='facts-number'>100</h2>
-                        <p className='facts-label'>markets</p>
+                <Row className="stats-row">
+                    <Col span={7} className='stats-item'>
+                        <p className='stat-label'>more than</p>
+                        <h2 className='stat-number'>100</h2>
+                        <p className='stat-label'>markets</p>
                     </Col>
 
                     <Divider type="vertical" className="vertical-divider" />
 
-                    <Col className='facts-items'>
-                        <p className='facts-label'>more than</p>
-                        <h2 className='facts-number'>88,000</h2>
-                        <p className='facts-label'>employees worldwide in 2024</p>
+                    <Col span={7} className='stats-item'>
+                        <p className='stat-label'>more than</p>
+                        <h2 className='stat-number'>88,000</h2>
+                        <p className='stat-label'>employees worldwide in 2024</p>
                     </Col>
 
                     <Divider type="vertical" className="vertical-divider" />
 
-                    <Col className='facts-items'>
-                        <p className='facts-label'>around</p>
-                        <h2 className='facts-number'>1,700,000</h2>
-                        <p className='facts-label'>Deliveries to customers 2024</p>
+                    <Col span={7} className='stats-item'>
+                        <p className='stat-label'>around</p>
+                        <h2 className='stat-number'>1,700,000</h2>
+                        <p className='stat-label'>Deliveries to customers 2024</p>
                     </Col>
                 </Row>
             </div>
@@ -67,7 +67,7 @@ function Profile() {
                     <div className='profile-card2'>
                         <img className='profile-image2' src={Image15} alt="" />
                         <h3 className='profile-title2'>Sustainability</h3>
-                        <p className='profile-description2'>For Audi, sustainability is synonymous with future viability – and the company is making its targeted contribution to solving global challenges. The background and details of our strategy.</p>
+                        <p className='profile-description2'>For Audi, sustainability is synonymous with future viability – and the <br /> company is making its targeted contribution to solving global challenges. <br /> The background and details of our strategy.</p>
                         <a className='profile-more-btn2' href="">Read more<i class="fa-solid fa-angle-right"></i></a>
                     </div>
                     <div className='profile-card2'>
