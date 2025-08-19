@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import Profile from './Screen/Company/Profile'
+import CompilanceRiskManagement from './Screen/Company/CompilanceRiskManagement'
 
 function App() {
 
   return (
     <>
-    <Profile />
+    <CompilanceRiskManagement />
     </>
   )
 }
