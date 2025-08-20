@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import PressMedia from './Screen/Company/PressMedia'
+import InnovationOverview from './Screen/Innovation/InnovationOverview'
 
 function App() {
 
   return (
     <>
-    <PressMedia />
+    <InnovationOverview />
     </>
   )
 }
