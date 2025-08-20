@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import CompilanceRiskManagement from './Screen/Company/CompilanceRiskManagement'
+import PressMedia from './Screen/Company/PressMedia'
 
 function App() {
 
   return (
     <>
-    <CompilanceRiskManagement />
+    <PressMedia />
     </>
   )
 }
