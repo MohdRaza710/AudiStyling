@@ -48,8 +48,39 @@ function ProductInnovation() {
                 <p className='pro-description2'>Moreover, you will not want to drive anything else once you have been on the road with quattro. The quattro cutting-edge technology offers dynamism and safety.</p>
                 <Button className='pro-read-btn2'>Read more</Button>
             </div>
-        {/* Remaining left */}
 
+            <div className='pro-section3'>
+                <h2 className='pro-heading3'>You might also be interested in </h2>
+
+                <div className='pro-grid3'>
+                    <div className='pro-card3'>
+
+
+
+
+
+
+                    </div>
+
+                    <div className='pro-card3'>
+
+
+
+
+
+                    </div>
+
+                    <div className='pro-card3'>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
         </div>
     )
 }
