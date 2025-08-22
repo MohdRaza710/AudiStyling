@@ -54,29 +54,29 @@ function ProductInnovation() {
 
                 <div className='pro-grid3'>
                     <div className='pro-card3'>
-
-
-
-
-
-
+                        <img src="" alt="" />
+                        <span></span>
+                        <span></span>
+                        <p></p>
+                        <a href=""></a>
+                        <span></span>
                     </div>
 
                     <div className='pro-card3'>
-
-
-
-
-
+                        <img src="" alt="" />
+                        <span></span>
+                        <span></span>
+                        <p></p>
+                        <a href=""></a>
                     </div>
 
                     <div className='pro-card3'>
-
-
-
-
-
-
+                        <img src="" alt="" />
+                        <span></span>
+                        <span></span>
+                        <p></p>
+                        <a href=""></a>
+                        <span></span>
                     </div>
 
                 </div>
