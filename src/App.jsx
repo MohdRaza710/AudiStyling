@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import ProductInnovation from './Screen/Innovation/ProductInnovation'
+import AcademicCooperation from './Screen/Innovation/AcademicCooperation'
 
 function App() {
 
   return (
     <>
-      <ProductInnovation />
+      <AcademicCooperation />
     </>
   )
 }

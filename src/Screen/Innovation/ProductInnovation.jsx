@@ -54,29 +54,29 @@ function ProductInnovation() {
 
                 <div className='pro-grid3'>
                     <div className='pro-card3'>
-                        <img src="" alt="" />
-                        <span></span>
-                        <span></span>
-                        <p></p>
-                        <a href=""></a>
-                        <span></span>
+                        <img className='pro-image3' src={Image2} alt="" />
+                        <span className='pro-date3'>17/07/2025</span>
+                        <span className='pro-title3'>All charged up! Cruising across Scandinavia with the Audi A6 Sportback e-tron</span>
+                        <p className='pro-description3'>A fully electric drive with the Audi A6 Sportback e-tron through Denmark, Sweden, and Norway. Efficiency, comfort, and innovation from Copenhagen to Bergen.</p>
+                        <a className='pro-read-btn3' href="">Read more </a>
+                        <span className='pro-point3'>Audi A6 Sportback e-tron performance: Electric power consumption (combined): 16–14,0 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.</span>
                     </div>
 
                     <div className='pro-card3'>
-                        <img src="" alt="" />
-                        <span></span>
-                        <span></span>
-                        <p></p>
-                        <a href=""></a>
+                        <img className='pro-image3' src={Image49} alt="" />
+                        <span className='pro-date3'>27/05/2025</span>
+                        <span className='pro-title3'>Fueled by love</span>
+                        <p className='pro-description3'>From icons to innovation: Discover the history of the Audi C-Series – from the classic Audi 100 to the brand-new Audi A6 Avant and Limousine.</p>
+                        <a className='pro-read-btn3' href="">Read more</a>
                     </div>
 
                     <div className='pro-card3'>
-                        <img src="" alt="" />
-                        <span></span>
-                        <span></span>
-                        <p></p>
-                        <a href=""></a>
-                        <span></span>
+                        <img className='pro-image3' src={Image45} alt="" />
+                        <span className='pro-date3'>10/09/2024</span>
+                        <span className='pro-title3'>Record-breaking aerodynamics</span>
+                        <p className='pro-description3'>The Audi A6 Sportback e-tron combines aerodynamics and energy efficiency for range and performance. Find out more now.</p>
+                        <a className='pro-read-btn3' href="">Read more</a>
+                        <span className='pro-point3'>Audi A6 Sportback e-tron performance: Combined electric power consumption in kWh/100 km (62.1 mi): 15.9-14.0; combined CO2 emissions in g/km (g/mi): 0 (0) CO2-class: A</span>
                     </div>
 
                 </div>
