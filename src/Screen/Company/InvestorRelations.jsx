@@ -52,14 +52,14 @@ function InvestorRelations() {
                         <p className='investor-label'>cars</p>
                     </Col>
 
-                    <Divider type='vertical' />
+                    <Divider type='vertical' className="vertical-divider" />
                     <Col span={7} className='investor-item'>
                         <p className='investor-label'>Operating profit</p>
                         <h2 className='investor-number'>1.1 <sub>EUR billion</sub> </h2>
                         <p className='investor-label'>(Operating margin: 3.3 %)</p>
                     </Col>
 
-                    <Divider type='vertical' />
+                    <Divider type='vertical' className="vertical-divider" />
                     <Col span={7} className='investor-item'>
                         <p className='investor-label'>Net cash flow</p>
                         <h2 className='investor-number'>0,9 <sub>EUR billion</sub> </h2>

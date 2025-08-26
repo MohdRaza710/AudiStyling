@@ -4,6 +4,7 @@ import Image59 from '../../assets/image59.png'
 import Image60 from '../../assets/image60.png'
 import Image61 from '../../assets/image61.png'
 import Image62 from '../../assets/image62.png'
+import { Button } from 'antd'
 
 // Styling Left
 function AcademicCooperation() {
@@ -50,6 +51,12 @@ function AcademicCooperation() {
                 <span className='acad-tpoint5'>Jürgen Bock</span>
                 <p className='acad-description5'>Technische Hochschule Ingolstadt, Faculty of Industrial Engineering and Management, AI Applications in Innovative Production and Logistics Systems</p>
                 <span className='acad-point5'>(Foto: photoresque)</span>
+            </div>
+
+            <div className='acad-section6'>
+                <h2 className='acad-title6'>Are you interested in working with Audi?</h2>
+                <span className='acad-description6'>Please feel free to contact us via wissenschaftskooperationen@audi.de</span>
+                <Button className='acad-contact-btn6'>Contact us now</Button>
             </div>
 
         </div>
