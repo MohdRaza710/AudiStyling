@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import SustainabilityOverview from './Screen/Sustainability/SustainabilityOverview'
+import SustainabilityContent from './Screen/Sustainability/SustainabilityContent'
 
 function App() {
 
   return (
     <>
-      <SustainabilityOverview />
+      <SustainabilityContent />
     </>
   )
 }
