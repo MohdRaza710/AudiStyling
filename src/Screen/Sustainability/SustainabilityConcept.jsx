@@ -10,7 +10,7 @@ import Image69 from '../../assets/image69.png'
 import Image18 from '../../assets/image18.png'
 
 // styling Left
-function SustainabilityContent() {
+function SustainabilityConcept() {
     return (
         <div>
             <div>
@@ -115,4 +115,4 @@ function SustainabilityContent() {
     )
 }
 
-export default SustainabilityContent
+export default SustainabilityConcept
