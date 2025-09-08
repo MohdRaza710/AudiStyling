@@ -69,7 +69,7 @@ function SustainabilityOverview() {
                 <h2 className='sus-heading3'>Three sustainability key figures for Audi</h2>
 
                 <Row className='sus-row'>
-                    <Col>
+                    <Col span={7} className='sus-item'>
                         <p className='sus-label'>Since</p>
                         <h2 className='sus-number'>2025</h2>
                         <p className='sus-label'>Production at all Audi sites* has been net carbon-neutral**</p>
@@ -77,7 +77,7 @@ function SustainabilityOverview() {
 
                     <Divider type='vertical' className="vertical-divider" />
 
-                    <Col>
+                    <Col span={7} className='sus-item'>
                         <p className='sus-label'>Around</p>
                         <h2 className='sus-number'>400 <sub>million euros</sub></h2>
                         <p className='sus-label'>is the total amount that AUDI AG has invested in the training and development of its employees over the past three years.</p>
@@ -85,7 +85,7 @@ function SustainabilityOverview() {
 
                     <Divider type='vertical' className="vertical-divider" />
 
-                    <Col>
+                    <Col span={7} className='sus-item'>
                         <p className='sus-label'>Up to</p>
                         <h2 className='sus-number'>756 <sub>Kilometers</sub></h2>
                         <p className='sus-label'>makes the Audi A6 Sportback e-tron*** the model with the longest range in its segment.</p>
