@@ -12,6 +12,7 @@ import Image92 from '../../assets/image92.png'
 import Image93 from '../../assets/image93.png'
 import { Divider, Row, Col } from 'antd'
 
+// Styling left
 function PeopleAndSociety() {
   return (
     <div>
@@ -20,13 +21,13 @@ function PeopleAndSociety() {
       </div>
 
       <div>
-        <h1 className='peo-heading'>People & Society</h1>
+        <h1 className='peo-heading1'>People & Society</h1>
         <p className='peo-description'>Audi takes responsibility for its employees and society, as well as for the supply chain. In doing so, the company stands for safe and fair working conditions and attractive opportunities for professional development and promotes social cohesion. And always keeps people – with all of their facets – in focus.</p>
       </div>
 
       <div className='peo=section1'>
 
-        <div className='peo-grid'>
+        <div className='peo-grid1'>
 
           <div>
             <img className='peo-image1' src={Image84} alt="" />
@@ -73,28 +74,64 @@ function PeopleAndSociety() {
       </div>
 
       <div>
-        <span className='peo-heading2'>2024 in figures</span>
+        <span className='peo-heading'>2024 in figures</span>
 
         <Row>
           <Col span={7} className='peo-item'>
-          <h2>88,604</h2>
-          <p>employees of the Audi group</p>
+            <h2>88,604</h2>
+            <p>employees of the Audi group</p>
           </Col>
 
           <Divider type='vertical' className='vertical-divider' />
 
           <Col span={7} className='peo-item'>
-          <h2>936,740</h2>
-          <p>Qualification hours</p>
+            <h2>936,740</h2>
+            <p>Qualification hours</p>
           </Col>
 
           <Divider type='vertical' className='vertical-divider' />
 
           <Col span={7} className='peo-item'>
-          <h2>€40 <sub>million</sub></h2>
-          <p>expended for corporate citizenship</p>
+            <h2>€40 <sub>million</sub></h2>
+            <p>expended for corporate citizenship</p>
           </Col>
         </Row>
+      </div>
+
+      <div className='peo-section2'>
+        <h2 className='peo-heading3'>You might also be interested in</h2>
+
+        <div className='peo-grid2'>
+
+          <div className='peo-card2'>
+            <img className='peo-image2' src={Image90} alt="" />
+            <span className='peo-date2'>24/07/2025</span>
+            <span className='peo-tittle2'>Diversity & Inclusion: milestones of a journey</span>
+            <p className='peo-description2'>AUDI AG regards Diversity & Inclusion as a journey that the company defines together with its employees. As part of this, the company reached a few new milestones.</p>
+            <a className='peo-link2' href="">Read more </a>
+          </div>
+
+          <div className='peo-card2'>
+            <img className='peo-image2' src={Image91} alt="" />
+            <span className='peo-tittle2'>Commitment is an act</span>
+            <p className='peo-description2'>Sustainability has many facets. That is why Audi lives responsibility not only in its relationship with its business partners: The company wants to establish this responsibility together with its partners along the entire supply chain.</p>
+            <a className='peo-link2' href="">Read more </a>
+          </div>
+
+          <div className='peo-card2'>
+            <img className='peo-image2' src={Image92} alt="" />
+            <span className='peo-tittle2'>Corporate culture at Audi</span>
+            <p className='peo-description2'>Shared values and team spirit are the foundation of Audi's corporate culture. The company is committed to diversity and inclusion, equal treatment and protection against discrimination as well as responsible leadership principles.</p>
+            <a className='peo-link2' href="">Read more </a>
+          </div>
+        </div>
+      </div>
+
+      <div className='peo-section3'>
+        <img className='peo-image3' src={Image93} alt="" />
+        <span className='peo-tittle3'>Working at Audi</span>
+        <p className='peo-description3'>We are moving forward proactively in our transition from traditional car manufacturer to mobility provider. As an employer, we design and promote a framework in which employees can contribute and further develop their potential.</p>
+        <a className='peo-link3' href="">Lead more</a>
       </div>
     </div>
   )

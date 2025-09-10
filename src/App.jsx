@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import PeopleAndSociety from './Screen/Sustainability/PeopleAndSociety'
+import EthicalLeadership from './Screen/Sustainability/EthicalLeadership'
 
 function App() {
 
   return (
     <>
-      <PeopleAndSociety />
+      <EthicalLeadership />
     </>
   )
 }
