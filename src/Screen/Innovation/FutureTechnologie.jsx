@@ -31,7 +31,7 @@ function FutureTechnologie() {
                         <span className='tech-date2'>11/03/2022</span>
                         <span className='tech-title2'>Audi using mixed reality to blaze new trails in communication</span>
                         <p className='techdescription2'>Technical communication using mixed reality: Audi A8 presentation delights viewers thanks to the virtual vehicle on air. To use the format, all you need is a smartphone or tablet.</p>
-                        <a className='tech-read-btn2' href="">Read more</a>
+                        <a className='tech-read-btn2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='tech-card2'>
@@ -39,7 +39,7 @@ function FutureTechnologie() {
                         <span className='tech-date2'>05/08/2021</span>
                         <span className='tech-title2'>AI in production at Audi: “A perfect field of application”</span>
                         <p className='techdescription2'>Artificial intelligence in production processes is nothing new to Audi. AI experts Rüdiger Eck and Stefan Keckl discuss how Audi uses AI and why people remain indispensable.</p>
-                        <a className='tech-read-btn2' href="">Read more</a>
+                        <a className='tech-read-btn2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                 </div>

@@ -28,7 +28,7 @@ function SustainabilityOverview() {
             </div>
             <div className='sus-section1'>
                 <h2 className='sus-title1'>Audi Annual and Sustainability Report 2024</h2>
-                <a className='sus-link1' href="#">To the report </a>
+                <a className='sus-link1' href="#">To the report <i class="fa-solid fa-angle-right"></i></a>
             </div>
             <div className='sus-section2'>
 
@@ -38,14 +38,14 @@ function SustainabilityOverview() {
                         <img className='sus-image2' src={Image27} alt="" />
                         <span className='sus-title2'>Sustainability concept</span>
                         <p className='sus-description2'>Clear ESG criteria, smart stakeholder engagement and dedicated reporting: here you can find out more about the subtleties of sustainability management at Audi.</p>
-                        <a className='sus-link2' href="">Learn more</a>
+                        <a className='sus-link2' href="">Learn more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div>
                         <img className='sus-image2' src={Image63} alt="" />
                         <span className='sus-title2'>Environment & Resources</span>
                         <p className='sus-description2'>What is Audi doing every day to make its products, its value chain and its production processes more sustainable? You can find the most important questions and answers on decarbonization, electrification and circular economy here.</p>
-                        <a className='sus-link2' href="">Learn more</a>
+                        <a className='sus-link2' href="">Learn more <i class="fa-solid fa-angle-right"></i></a>
                         <span className='sus-point'>The vehicle illustrated is a prototype that is not available as a series-production vehicle.</span>
                     </div>
 
@@ -53,14 +53,14 @@ function SustainabilityOverview() {
                         <img className='sus-image2' src={Image64} alt="" />
                         <span className='sus-title2'>People & Society</span>
                         <p className='sus-description2'>Find out in detail how Audi takes responsibility for its supply chain, advocates for human rights, engages in civil society and promotes diversity and inclusion.</p>
-                        <a className='sus-link2' href="">Learn more</a>
+                        <a className='sus-link2' href="">Learn more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div>
                         <img className='sus-image2' src={Image65} alt="" />
                         <span className='sus-title2'>Ethical leadership</span>
                         <p className='sus-description2'>Value oriented and sustainable: at Audi, business and ethics aren’t opposing ideas, but rather go hand in hand. Read about how compliance and integrity are firmly anchored in the business processes at Audi.</p>
-                        <a className='sus-link2' href="">Learn more</a>
+                        <a className='sus-link2' href="">Learn more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@ function SustainabilityOverview() {
                         <span className='sus-date4'>16/04/2025</span>
                         <span className='sus-title4'>Responsibility with a passion: Audi dealership Augsburg</span>
                         <p className='sus-description4'>In the Augsburg region, Michael Agsteiner is driving sustainability at Audi dealerships – including green roofs, water treatment and ergonomic workplaces. In an interview with Heiko Schmidt, he discusses responsibility.</p>
-                        <a className='sus-link4' href="">Read more</a>
+                        <a className='sus-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='sus-card4'>
@@ -121,7 +121,7 @@ function SustainabilityOverview() {
                         <span className='sus-date4'>22/01/2025</span>
                         <span className='sus-title4'>Active safety functions: driver assist systems of the future</span>
                         <p className='sus-description4'>Audi engineers work hard every day to ensure that the vehicles they develop meet high standards of safety. A visit to the Active Safety Functions development team.</p>
-                        <a className='sus-link4' href="">Read more</a>
+                        <a className='sus-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                         <span className='sus-point4'>Assist systems can only assist the driver in the task of driving within the respective system limits. The driver is always responsible for driving the vehicle and is required to be attentive at all times.</span>
                     </div>
 
@@ -130,7 +130,7 @@ function SustainabilityOverview() {
                         <span className='sus-date4'>02/12/2024</span>
                         <span className='sus-title4'>Rethink: thinking about the end right from the start</span>
                         <p className='sus-description4'>As part of Design for Circularity, Audi promotes the circular economy in the early phases of product development. According to the Rethink principle, components in the concept phase are already designed with their recyclability in mind.</p>
-                        <a className='sus-link4' href="">Read more</a>
+                        <a className='sus-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@ function SustainabilityOverview() {
                     <img className='sus-image5' src={Image20} alt="" />
                     <span className='sus-title5'>Audi Report 2024 – Audi on the offensive</span>
                     <p className='sus-description5'>The Audi Report 2024 – the combined annual and sustainability report from AUDI AG – brings together the topics of strategy, finance as well as environmental, social and governance.</p>
-                    <a className='sus-link5' href="">Read more</a>
+                    <a className='sus-link5' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     <span className='sus-point5'>Audi A6 Avant e-tron performance: electric power consumption (combined): 17.0–14.8 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.</span>
                 </div>
 
@@ -151,14 +151,14 @@ function SustainabilityOverview() {
                     <img className='sus-image5' src={Image70} alt="" />
                     <span className='sus-title5'>Sustainability reports</span>
                     <p className='sus-description5'>Read the collected Audi Sustainability reports and learn more about the implementation of the company’s strategy.</p>
-                    <a className='sus-link5' href="">Read more</a>
+                    <a className='sus-link5' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                 </div>
 
                 <div className='sus-grid5'>
                     <img className='sus-image5' src={Image71} alt="" />
                     <span className='sus-title5'>Documents & policies</span>
                     <p className='sus-description5'>Voluntary undertakings and principles that apply across the Group form the basis and backbone of our strategic sustainability objectives.</p>
-                    <a className='sus-link5' href="">Read more</a>
+                    <a className='sus-link5' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
 
@@ -173,19 +173,19 @@ function SustainabilityOverview() {
                     <div className='sus-card6'>
                         <img className='sus-image6' src={Image72} alt="" />
                         <span className='sus-title6'>Audi Media Center</span>
-                        <a className='sus-link6' href="#">To the sustainablity hub</a>
+                        <a className='sus-link6' href="#">To the sustainablity hub <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='sus-card6'>
                         <img className='sus-image6' src={Image73} alt="" />
                         <span className='sus-title6'>audi.de</span>
-                        <a className='sus-link6' href="#">To Audi Germany</a>
+                        <a className='sus-link6' href="#">To Audi Germany <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='sus-card6'>
                         <img className='sus-image6' src={Image20} alt="" />
                         <span className='sus-title6'>Audi report 2024</span>
-                        <a className='sus-link6' href="#">To the annual and sustainability report</a>
+                        <a className='sus-link6' href="#">To the annual and sustainability report <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -90,21 +90,21 @@ function CareersOverview() {
             <img src={Image99} alt="" />
             <span>We are on fire for Formula 1. With no fossil fuels.</span>
             <p>Sümeyye, HR Business Partner | Audi Formula Racing GmbH</p>
-            <a href="">Read more </a>
+            <a href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='carer-card3'>
             <img src={Image100} alt="" />
             <span>We work every day to push the boundary between the possible and the impossible.</span>
             <p>Tiantian, Project Manager Function Development / Application Driver Assistance Systems</p>
-            <a href="">Read more </a>
+            <a href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='carer-card3'>
             <img src={Image101} alt="" />
             <span>An IT revolution is raging in the automotive industry. Now is the time to be a part of it.</span>
             <p>Sebastian, Head of Delivery Management Digitalization Manufacturing</p>
-            <a href="">Read more </a>
+            <a href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
         </div>
       </div>

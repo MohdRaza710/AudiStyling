@@ -33,14 +33,14 @@ function EnvironmentAndResources() {
                         <img className='env-image2' src={Image77} alt="" />
                         <span className='env-title2'>Decarbonization</span>
                         <p className='env-description2'>Audi is committed to the Paris Climate Agreement and its goals. Find out about how Audi is reducing its carbon footprint and which measures along the value chain contribute to the goal of achieving net carbon neutrality by the year 2050.</p>
-                        <a className='env-link2' href="">Read more</a>
+                        <a className='env-link2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='env-card2'>
                         <img className='env-image2' src={Image82} alt="" />
                         <span className='env-title2'>Electrification</span>
                         <p className='env-description2'>On the basis of a clear and consistent electrification strategy, Audi is shaping the mobility of the future: by 2027, Audi wants to include one fully electric vehicle in the portfolio in all core segments.</p>
-                        <a className='env-link2' href="">Read more</a>
+                        <a className='env-link2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                         <span className='env-point2'>Electric power consumption (combined): 18,9–15,6 kWh/100km; CO₂ emissions (combined): 0 g/km; CO₂ class: A</span>
                     </div>
 
@@ -48,7 +48,7 @@ function EnvironmentAndResources() {
                         <img className='env-image2' src={Image78} alt="" />
                         <span className='env-title2'>Circular economy</span>
                         <p className='env-description2'>Conserving resources, operating sustainably. From product design and manufacturing to recycling: Audi adopts a wide range of approaches to implementing circular systems in the automotive value chain. An overview of our circular economy strategy.</p>
-                        <a className='env-link2' href="">Read more</a>
+                        <a className='env-link2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ function EnvironmentAndResources() {
                 <img className='env-image3' src={Image79} alt="" />
                 <span className='env-title3'>Mission:Zero</span>
                 <p className='env-description3'>Audi is reducing its environmental footprint in production and logistics with the environmental program Mission:Zero.</p>
-                <a className='env-link3' href="">Read more</a>
+                <a className='env-link3' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
             </div>
             <div className='env-section4'>
                 <h1 className='env-heading4'>You might also be interested in</h1>
@@ -69,7 +69,7 @@ function EnvironmentAndResources() {
                         <span className='env-date4'>16/04/2025</span>
                         <span className='env-title4'>Responsibility with a passion: Audi dealership Augsburg</span>
                         <p className='env-description4'>In the Augsburg region, Michael Agsteiner is driving sustainability at Audi dealerships – including green roofs, water treatment and ergonomic workplaces. In an interview with Heiko Schmidt, he discusses responsibility.</p>
-                        <a className='env-link4' href="">Read more</a>
+                        <a className='env-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='env-card4'>
@@ -77,7 +77,7 @@ function EnvironmentAndResources() {
                         <span className='env-date4'>02/12/2024</span>
                         <span className='env-title4'>Rethink: thinking about the end right from the start</span>
                         <p className='env-description4'>As part of Design for Circularity, Audi promotes the circular economy in the early phases of product development. According to the Rethink principle, components in the concept phase are already designed with their recyclability in mind.</p>
-                        <a className='env-link4' href="">Read more</a>
+                        <a className='env-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='env-card4'>
@@ -85,7 +85,7 @@ function EnvironmentAndResources() {
                         <span className='env-date4'>28/11/2024</span>
                         <span className='env-title4'>Sustainable both then and now: “Audi is following the right path.”</span>
                         <p className='env-description4'>Audi brand ambassador Felix Neureuther and Rüdiger Recknagel, Head of Environmental Protection Audi Group, talk about sustainable pioneer vehicles, the appeal of electric cars and the future of sustainable production at Audi museum mobile.</p>
-                        <a className='env-link4' href="">Read more</a>
+                        <a className='env-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

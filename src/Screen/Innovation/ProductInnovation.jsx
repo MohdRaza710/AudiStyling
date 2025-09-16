@@ -29,14 +29,14 @@ function ProductInnovation() {
                         <img className='pro-image1' src={Image50} alt="" />
                         <span className='pro-title1'>Technologies</span>
                         <p className='pro-description1'>Technological leadership is as much a part of the Audi DNA as the iconic four rings. Every day, Audi employees work to ensure that technical progress reaches the road. At the heart of our innovative strength is a unique driving experience. But we go even further: Thanks to future-proof technologies and services, we ensure an unparalleled customer experience.</p>
-                        <a className='pro-read-btn1' href="#">Read more </a>
+                        <a className='pro-read-btn1' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='pro-card1'>
                         <img className='pro-image1' src={Image47} alt="" />
                         <span className='pro-title1'>E-Mobility</span>
                         <p className='pro-description1'>We are merging the new world of electric mobility with more than a century of experience in premium vehicle manufacturing. Audi’s vision of sustainable mobility extends far beyond the usual horizons of the automotive industry.</p>
-                        <a className='pro-read-btn1' href="#">Read more </a>
+                        <a className='pro-read-btn1' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
                         <span className='pro-point'>Power consumption (combined): 18.9–15.6 kWh/100km; CO₂ emissions (combined): 0 g/km; CO₂ emission class: A</span>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function ProductInnovation() {
                         <span className='pro-date3'>17/07/2025</span>
                         <span className='pro-title3'>All charged up! Cruising across Scandinavia with the Audi A6 Sportback e-tron</span>
                         <p className='pro-description3'>A fully electric drive with the Audi A6 Sportback e-tron through Denmark, Sweden, and Norway. Efficiency, comfort, and innovation from Copenhagen to Bergen.</p>
-                        <a className='pro-read-btn3' href="">Read more </a>
+                        <a className='pro-read-btn3' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                         <span className='pro-point3'>Audi A6 Sportback e-tron performance: Electric power consumption (combined): 16–14,0 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.</span>
                     </div>
 
@@ -67,7 +67,7 @@ function ProductInnovation() {
                         <span className='pro-date3'>27/05/2025</span>
                         <span className='pro-title3'>Fueled by love</span>
                         <p className='pro-description3'>From icons to innovation: Discover the history of the Audi C-Series – from the classic Audi 100 to the brand-new Audi A6 Avant and Limousine.</p>
-                        <a className='pro-read-btn3' href="">Read more</a>
+                        <a className='pro-read-btn3' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='pro-card3'>
@@ -75,7 +75,7 @@ function ProductInnovation() {
                         <span className='pro-date3'>10/09/2024</span>
                         <span className='pro-title3'>Record-breaking aerodynamics</span>
                         <p className='pro-description3'>The Audi A6 Sportback e-tron combines aerodynamics and energy efficiency for range and performance. Find out more now.</p>
-                        <a className='pro-read-btn3' href="">Read more</a>
+                        <a className='pro-read-btn3' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                         <span className='pro-point3'>Audi A6 Sportback e-tron performance: Combined electric power consumption in kWh/100 km (62.1 mi): 15.9-14.0; combined CO2 emissions in g/km (g/mi): 0 (0) CO2-class: A</span>
                     </div>
 

@@ -84,63 +84,63 @@ function WorkingAtAudi() {
             <img className='work-image9' src={Image99} alt="" />
             <span className='work-title9'>We are on fire for Formula 1. With no fossil fuels.</span>
             <p className='work-description9'>Sümeyye, HR Business Partner | Audi Formula Racing GmbH</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image109} alt="" />
             <span className='work-title9'>Electromobility is our future. And that future begins now.</span>
             <p className='work-description9'>Andreas, Module engineer, high-voltage energy storage</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image110} alt="" />
             <span className='work-title9'>These days, we think of a car as a mobile device on four wheels.</span>
             <p className='work-description9'>Steffen, project manager electronic-architecture</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image111} alt="" />
             <span className='work-title9'>In addition to the apprenticeship, we receive appreciation, respect and individual support for our strengths.</span>
             <p className='work-description9'>Isabella, Apprentice mechatronics technician in automation technology</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image112} alt="" />
             <span className='work-title9'>For us, digitalization doesn't mean collecting data. It's about ideas.</span>
             <p className='work-description9'>Buenyamin, IT Product Manager</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image113} alt="" />
             <span className='work-title9'>I have switched to more exciting jobs twice in the last few years. Without changing the company.</span>
             <p className='work-description9'>Sabrina, Subproject manager in battery production</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image100} alt="" />
             <span className='work-title9'>We work every day to push the boundary between the possible and the impossible.</span>
             <p className='work-description9'>Tiantian, Project Manager Function Development / Application Driver Assistance Systems</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image101} alt="" />
             <span className='work-title9'>An IT revolution is raging in the automotive industry. Now is the time to be part of it.</span>
             <p className='work-description9'>Sebastian, Head of Delivery Management Digitalization Manufacturing</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='work-card9'>
             <img className='work-image9' src={Image106} alt="" />
             <span className='work-title9'>In IT, we are working on the future: for the company and for sustainable mobility.</span>
             <p className='work-description9'>Sevgi, Solution Architect</p>
-            <a className='work-button9' href="">Read more </a>
+            <a className='work-button9' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
         </div>

@@ -20,7 +20,7 @@ function SchoolStudents() {
         <div className='school-section2'>
             <span className='school-description2'>Do you have any questions concerning your application?</span>
             <span className='school-description2.1'>You can find our FAQ here.</span>
-            <a className='school-button2' href="">To the FAQ </a>
+            <a className='school-button2' href="">To the FAQ <i class="fa-solid fa-angle-right"></i></a>
         </div>
     </div>
   )

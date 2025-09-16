@@ -54,13 +54,13 @@ function Graduates() {
                     <div className='grd-card4'>
                         <img className='grd-image4' src={Image122} alt="" />
                         <span className='grd-title4'>Audi Benefits</span>
-                        <a className='grd-link4' href="">Read more </a>
+                        <a className='grd-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='grd-card4'>
                         <img className='grd-image4' src={Image93} alt="" />
                         <span className='grd-title4'>Working at Audi</span>
-                        <a className='grd-link4' href="">Read more </a>
+                        <a className='grd-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

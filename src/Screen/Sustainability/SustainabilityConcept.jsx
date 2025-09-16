@@ -30,14 +30,14 @@ function SustainabilityConcept() {
                         <img className='cont-image1' src={Image74} alt="" />
                         <span className='cont-title1'>Stakeholder Management</span>
                         <p className='cont-description1'>Sustainable mobility is one of society’s primary necessities. Audi works closely with its stakeholders to offer tailor-made products and services. It’s all about understanding requirements – in order to shape the future of mobility together.</p>
-                        <a className='cont-link1' href="">Learn more </a>
+                        <a className='cont-link1' href="">Learn more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='cont-card1'>
                         <img className='cont-image1' src={Image75} alt="" />
                         <span className='cont-title1'>Materiality analysis</span>
                         <p className='cont-description1'>Audi relies on the materiality analysis to help it understand its impact on the environment and society better. This evaluates the effects of Audi’s actions as well as the relevance of certain topics for the company’s stakeholders.</p>
-                        <a className='cont-link1' href="">Learn more </a>
+                        <a className='cont-link1' href="">Learn more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ function SustainabilityConcept() {
                         <span className='cont-date3'>16/04/2025</span>
                         <span className='cont-title3'>Responsibility with a passion: Audi dealership Augsburg</span>
                         <p className='cont-description3'>In the Augsburg region, Michael Agsteiner is driving sustainability at Audi dealerships – including green roofs, water treatment and ergonomic workplaces. In an interview with Heiko Schmidt, he discusses responsibility.</p>
-                        <a className='cont-link3' href="">Read more </a>
+                        <a className='cont-link3' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='cont-card3'>
@@ -69,7 +69,7 @@ function SustainabilityConcept() {
                         <span className='cont-date3'>22/01/2025</span>
                         <span className='cont-title3'>Active safety functions: driver assist systems of the future</span>
                         <p className='cont-description3'>Audi engineers work hard every day to ensure that the vehicles they develop meet high standards of safety. A visit to the Active Safety Functions development team.</p>
-                        <a className='cont-link3' href="">Read more </a>
+                        <a className='cont-link3' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                         <span className='cont-point3'>Assist systems can only assist the driver in the task of driving within the respective system limits. The driver is always responsible for driving the vehicle and is required to be attentive at all times.</span>
                     </div>
 
@@ -78,7 +78,7 @@ function SustainabilityConcept() {
                         <span className='cont-date3'>02/12/2024</span>
                         <span className='cont-title3'>Rethink: thinking about the end right from the start</span>
                         <p className='cont-description3'>As part of Design for Circularity, Audi promotes the circular economy in the early phases of product development. According to the Rethink principle, components in the concept phase are already designed with their recyclability in mind.</p>
-                        <a className='cont-link3' href="">Read more </a>
+                        <a className='cont-link3' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@ function SustainabilityConcept() {
                         <img className='cont-image4' src={Image20} alt="" />
                         <span className='cont-title4'>Audi Report 2024 – Audi on the offensive</span>
                         <p className='cont-description4'>The Audi Report 2024 – the combined annual and sustainability report from AUDI AG – brings together the topics of strategy, finance as well as environmental, social and governance.</p>
-                        <a className='cont-link4' href="">Read more </a>
+                        <a className='cont-link4' href="">Read more <i class="fa-solid fa-angle-right"></i>`</a>
                         <span className='cont-point4'>Audi A6 Avant e-tron performance: electric power consumption (combined): 17.0–14.8 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.</span>
                     </div>
 
@@ -100,14 +100,14 @@ function SustainabilityConcept() {
                         <img className='cont-image4' src={Image70} alt="" />
                         <span className='cont-title4'>Sustainability reports</span>
                         <p className='cont-description4'>Read the collected Audi Sustainability reports and learn more about the implementation of the company’s strategy.</p>
-                        <a className='cont-link4' href="">Read more </a>
+                        <a className='cont-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='cont-card4'>
                         <img className='cont-image4' src={Image71} alt="" />
                         <span className='cont-title4'>Documents & policies</span>
                         <p className='cont-description4'>Voluntary undertakings and principles that apply across the Group form the basis and backbone of our strategic sustainability objectives.</p>
-                        <a className='cont-link4' href="">Read more </a>
+                        <a className='cont-link4' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -23,21 +23,21 @@ function EthicalLeadership() {
                         <img className='eth-image1' src={Image23} alt="" />
                         <span className='eth-title1'>Integrity</span>
                         <p className='eth-description1'>Doing what is right out of personal conviction: Behaving with integrity is not just an aspiration for Audi, but a central pillar of its corporate culture. Discover the most important facts and learn how Audi succeeds in permanently ingraining integrity in its employees’ minds and behavior.</p>
-                        <a className='eth-link1' href="">Read more </a>
+                        <a className='eth-link1' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='eth-card1'>'
                         <img className='eth-image1' src={Image19} alt="" />
                         <span className='eth-title1'>Compliance & risk management</span>
                         <p className='eth-description1'>Effective compliance management, responsible risk management and ethical behavior are the cornerstones of our business activity. They help strengthen our stakeholders’ trust, our company’s reputation and our sustainable commercial success.</p>
-                        <a className='eth-link1' href="">Read more </a>
+                        <a className='eth-link1' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='eth-card1'>'
                         <img className='eth-image1' src={Image94} alt="" />
                         <span className='eth-title1'>Documents & policies</span>
                         <p className='eth-description1'>Statements of principle, voluntary commitments and the Code of Conduct are the backbone of Audi’s sustainability management. They ensure that we act lawfully and ethically, while at the same time making our business activities transparent. You can find the most important documents here.</p>
-                        <a className='eth-link1' href="">Read more </a>
+                        <a className='eth-link1' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

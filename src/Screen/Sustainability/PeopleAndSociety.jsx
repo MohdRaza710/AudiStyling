@@ -33,42 +33,42 @@ function PeopleAndSociety() {
             <img className='peo-image1' src={Image84} alt="" />
             <span className='peo-tittle'>Vehicle safety</span>
             <p className='peo-description'>Audi invests in the development of new and improved vehicle safety features and works to high standards with the aim of protecting vehicle occupants and other road users. The company’s active and passive safety technologies can make a significant contribution to reducing the risk of accidents and injuries.</p>
-            <a className='peo-link' href="#">Read more </a>
+            <a className='peo-link' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div>
             <img className='peo-image1' src={Image85} alt="" />
             <span className='peo-tittle'>Human rights</span>
             <p className='peo-description'>Audi recognizes its corporate responsibility for human rights and takes its lead from the UN Guiding Principles on Business and Human Rights. But what does this mean in the company’s everyday business? Find out here exactly what Audi is doing for human rights.</p>
-            <a className='peo-link' href="#">Read more </a>
+            <a className='peo-link' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div>
             <img className='peo-image1' src={Image86} alt="" />
             <span className='peo-tittle'>Responsibility in the supply chain</span>
             <p className='peo-description'>An Audi vehicle consists of many thousands of individual parts and is based on widely branched global supply chains. The company aspires to manage its supply chains responsibly to generate effective results for the environment and people.</p>
-            <a className='peo-link' href="#">Read more </a>
+            <a className='peo-link' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div>
             <img className='peo-image1' src={Image87} alt="" />
             <span className='peo-tittle'>Employees & corporate culture</span>
             <p className='peo-description'>At Audi, more than 50,000 people are working together on the individual mobility solutions of the future. Which culture of togetherness does Audi promote? What type of team spirit and values does it take to keep pace? Audi has answers.</p>
-            <a className='peo-link' href="#">Read more </a>
+            <a className='peo-link' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div>
             <img className='peo-image1' src={Image88} alt="" />
             <span className='peo-tittle'>Diversity & Inclusion</span>
             <p className='peo-description'>As an international brand, Audi is convinced that diversity enriches our experiences in living and working together. Different ways of thinking, abilities, cultural influences and skills are an important key to corporate success, because different cultural backgrounds and perspectives make us more innovative, more agile and stronger.</p>
-            <a className='peo-link' href="#">Read more </a>
+            <a className='peo-link' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div>
             <img className='peo-image1' src={Image89} alt="" />
             <span className='peo-tittle'>Corporate citizenship</span>
             <p className='peo-description'>From specific aid in disaster situations to education, culture, sports all the way to volunteering: Audi takes responsibility – for its employees, but also for the people and the natural environment in the regions where it operates, as well as beyond the corporate borders.</p>
-            <a className='peo-link' href="#">Read more </a>
+            <a className='peo-link' href="#">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
         </div>
       </div>
@@ -108,21 +108,21 @@ function PeopleAndSociety() {
             <span className='peo-date2'>24/07/2025</span>
             <span className='peo-tittle2'>Diversity & Inclusion: milestones of a journey</span>
             <p className='peo-description2'>AUDI AG regards Diversity & Inclusion as a journey that the company defines together with its employees. As part of this, the company reached a few new milestones.</p>
-            <a className='peo-link2' href="">Read more </a>
+            <a className='peo-link2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='peo-card2'>
             <img className='peo-image2' src={Image91} alt="" />
             <span className='peo-tittle2'>Commitment is an act</span>
             <p className='peo-description2'>Sustainability has many facets. That is why Audi lives responsibility not only in its relationship with its business partners: The company wants to establish this responsibility together with its partners along the entire supply chain.</p>
-            <a className='peo-link2' href="">Read more </a>
+            <a className='peo-link2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
 
           <div className='peo-card2'>
             <img className='peo-image2' src={Image92} alt="" />
             <span className='peo-tittle2'>Corporate culture at Audi</span>
             <p className='peo-description2'>Shared values and team spirit are the foundation of Audi's corporate culture. The company is committed to diversity and inclusion, equal treatment and protection against discrimination as well as responsible leadership principles.</p>
-            <a className='peo-link2' href="">Read more </a>
+            <a className='peo-link2' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
           </div>
         </div>
       </div>
