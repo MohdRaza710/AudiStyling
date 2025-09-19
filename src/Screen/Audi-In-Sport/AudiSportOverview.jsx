@@ -29,21 +29,21 @@ function AudiSportOverview() {
                         <img className='ads-image1' src={Image141} alt="" />
                         <span className='ads-title1'>Vorsprung durch Motorport</span>
                         <p className='ads-description1'>The four rings and motorsport: a legendary combination. Audi continues to prepare to enter Formula 1 in 2026, and Audi Sport customer racing models compete worldwide in the hands of customer teams.</p>
-                        <a className='ads-link1' href="">Read more </a>
+                        <a className='ads-link1' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='ads-card1'>
                         <img className='ads-image1' src={Image142} alt="" />
                         <span className='ads-title1'>Audi and FC Bayern: on the ball together since 2002</span>
                         <p className='ads-description1'>The partnership between Audi and FC Bayern was established in 2002. The driving force behind this successful collaboration is the absolute will to win, the goal of being the best in one’s class – aspirations that both share.</p>
-                        <a className='ads-link1' href="">Read more </a>
+                        <a className='ads-link1' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
 
                     <div className='ads-card1'>
                         <img className='ads-image1' src={Image143} alt="" />
                         <span className='ads-title1'>Audi and winter sports: an enduring partnership</span>
                         <p className='ads-description1'>After almost four decades, AUDI AG is one of the longest-standing winter sports partners. Find out more about the company’s involvement with the International Ski Federation FIS, the national associations, the Hahnenkamm Races in Kitzbühel and the professional skier and brand ambassador Aleksander Aamodt Kilde.</p>
-                        <a className='ads-link1' href="">Read more </a>
+                        <a className='ads-link1' href="">Read more <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
