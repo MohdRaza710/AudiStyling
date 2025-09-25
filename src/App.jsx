@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Components/MenuLayout/Header'
+import AppFooter from './Components/MenuLayout/Footer'
+import { AppRoutes } from './config/routes'
 function App() {
 
   return (
     <>
-    <Header />
+    <AppFooter />
+    {/* <AppRoutes /> */}
     </>
   )
 }

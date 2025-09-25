@@ -973,3 +973,53 @@ body {
 
 }
 
+.luxury-header-layout {
+  position: fixed !important;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff !important;
+  height: 70px !important;
+  line-height: 70px !important;
+  padding: 0 50px !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header-content-row {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.brand-logo-image {
+  height: 70px;
+  width: auto;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 3.2px;
+}
+
+.primary-menu {
+  border-bottom: none !important;
+  line-height: 70px !important;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.primary-menu .ant-menu-item {
+  font-size: 1rem !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 25px !important;
+  color: #333333 !important;
+}
+
+.primary-menu .ant-menu-item-selected a,
+.primary-menu .ant-menu-item:hover a {
+  color: #CC0000 !important;
+}
+
+.primary-menu .ant-menu-item::after {
+  border-bottom: 2px solid #CC0000 !important;
+}

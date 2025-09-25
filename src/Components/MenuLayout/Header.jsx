@@ -1,177 +1,98 @@
-import { useState } from 'react'
-import { Menu, Button } from 'antd'
-import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Layout, Menu, Row, Col } from 'antd';
+import Logo from '../../assets/Logo.png'
 
-function Header() {
+const { Header } = Layout;
 
-  const items = [
-    {
-      key: '1',
-      label: `Company ${<i class="fa-solid fa-angle-right"></i>}`,
-      children: [
-        {
-          key: '1-1',
-          label: `Overview`
-        },
-        {
-          key: '1-2',
-          label: `Strategy`
-        },
-        {
-          key: '1-3',
-          label: `Profile`
-        },
-        {
-          key: '1-4',
-          label: `Invester Relations`
-        },
-        {
-          key: '1-5',
-          label: `Compliance & isk management`
-        },
-        {
-          key: '1-6',
-          label: `Press & Media`
-        },
-      ]
-    },
+const menuItems = [
+  {
+    key: '1', label: `Company`,
+    children: [
+      { key: '1-1', label: <a href="/companyoverview">Overview</a> },
+      { key: '1-2', label: <a href="/strategy">Strategy</a> },
+      { key: '1-3', label: <a href="/profile">Profile</a> },
+      { key: '1-4', label: <a href="/investorrelation">Invester Relations</a> },
+      { key: '1-5', label: <a href="/compilanceriskmanagement">Compliance & risk management</a> },
+      { key: '1-6', label: <a href="/pressmedia">Press & Media</a> }
+    ]
+  },
 
-    {
-      key: '2',
-      label: `Innovation ${<i class="fa-solid fa-angle-right"></i>}`,
-      children: [
-        {
-          key: '2-1',
-          label: `Overview`
-        },
-        {
-          key: '2-2',
-          label: `Product Innovation`
-        },
-        {
-          key: '2-3',
-          label: `Future technologies`
-        },
-        {
-          key: '2-4',
-          label: `Design`
-        },
-        {
-          key: '2-5',
-          label: `Digitalization`
-        },
-        {
-          key: '2-6',
-          label: `Academic Cooperation`
-        }
-      ]
-    },
+  {
+    key: '2', label: `Innovation`,
+    children: [
+      { key: '2-1', label: <a href="/innovationoverview">Overview</a> },
+      { key: '2-2', label: <a href="/productinnovation">Product Innovation</a> },
+      { key: '2-3', label: <a href="/futuretechnologies">Future technologies</a> },
+      { key: '2-4', label: <a href="/design">Design</a> },
+      { key: '2-5', label: <a href="/digitalization">Digitalization</a> },
+      { key: '2-6', label: <a href="/academiccooperation">Academic Cooperation</a> }
+    ]
+  },
 
-    {
-      key: '3',
-      label: `Sustainability ${<i class="fa-solid fa-angle-right"></i>}`,
-      children: [
-        {
-          key: '3-1',
-          label: `Overview`
-        },
-        {
-          key: '3-2',
-          label: `Sustainability Concept`
-        },
-        {
-          key: '3-3',
-          label: `Environment & Resources`
-        },
-        {
-          key: '3-4',
-          label: `People & Society`
-        },
-        {
-          key: '3-5',
-          label: `Ethical leadership`
-        }
-      ]
-    },
+  {
+    key: '3', label: `Sustainability`,
+    children: [
+      { key: '3-1', label: <a href="/sustainabilityoverview">Overview</a> },
+      { key: '3-2', label: <a href="/sustainabilityconcept">Sustainability Concept</a> },
+      { key: '3-3', label: <a href="/environmentandresources">Environment & Resources</a> },
+      { key: '3-4', label: <a href="/peopleandsociety">People & Society</a> },
+      { key: '3-5', label: <a href="/ethicalleadership">Ethical leadership</a> }
+    ]
+  },
 
-    {
-      key: '4',
-      label: `Careers ${<i class="fa-solid fa-angle-right"></i>}`,
-      children: [
-        {
-          key: '4-1',
-          label: `Overview`
-        },
-        {
-          key: '4-2',
-          label: `Job portal`
-        },
-        {
-          key: '4-3',
-          label: `Workng at Audi`
-        },
-        {
-          key: '4-4',
-          label: `School students`
-        },
-        {
-          key: '4-5',
-          label: `Students`
-        },
-        {
-          key: '4-6',
-          label: `Graduates`
-        },
-        {
-          key: '4-7',
-          label: `Professionals`
-        },
-        {
-          key: '4-8',
-          label: `Karriere im Autohaus`
-        },
-      ]
-    },
+  {
+    key: '4', label: `Careers`,
+    children: [
+      { key: '4-1', label: <a href="/careersoverview">Overview</a> },
+      { key: '4-2', label: <a href="/jobportal">Job portal</a> },
+      { key: '4-3', label: <a href="/workingataudi">Workng at Audi</a> },
+      { key: '4-4', label: <a href="/schoolstudents">School Students</a> },
+      { key: '4-5', label: <a href="/students">Students</a> },
+      { key: '4-6', label: <a href="/graduates">Graduates</a> },
+      { key: '4-7', label: <a href="/professionals">Professionals</a> },
+      { key: '4-8', label: <a href="/karriereimautohaus">Karriere im Autohaus</a> },
+    ]
+  },
 
-    {
-      key: '5',
-      label: `Audi in sport ${<i class="fa-solid fa-angle-right"></i>}`,
-      children: [
-        {
-          key: '5-1',
-          label: `Overview`
-        },
-        {
-          key: '5-2',
-          label: `Audi in motorsport`
-        },
-        {
-          key: '5-3',
-          label: `Audi in football`
-        },
-        {
-          key: '5-4',
-          label: `Audi in winter sports`
-        },
-      ]
-    }
-  ]
-  const [collapsed, setCollapsed] = useState(true);
-  const toggleCollapsed = () => {
-    setCollapsed(!collapsed);
-  };
+  {
+    key: '5', label: `Audi in sport`,
+    children: [
+      { key: '5-1', label: <a href="/audisportoverview">Overview</a> },
+      { key: '5-2', label: <a href="/audimotorsport">Audi in motorsport</a> },
+      { key: '5-3', label: <a href="/audifootball">Audi in football</a> },
+      { key: '5-4', label: <a href="/audiwintersport">Audi in winter sports</a> },
+    ]
+  }
+];
+
+const luxuryHeader = () => {
   return (
-    <div style={{ width: 256 }}>
-      <Button type="primary" onClick={toggleCollapsed} >
-        {collapsed ? < MenuOutlined /> : <CloseOutlined />}
-      </Button>
-      <Menu
-        theme="dark"
-        inlineCollapsed={collapsed}
-        items={items}
-      />
-    </div>
-  );
-}
+    <Header className="luxury-header-layout">
+      <Row justify="space-between" align="middle" className="header-content-row">
 
-export default Header
+        <Col className="header-logo">
+          <a href="/">
+            <img
+              src={Logo}
+              alt="Your Brand Logo"
+              className="brand-logo-image"
+            />
+          </a>
+        </Col>
+
+        <Col flex="auto">
+          <Menu
+            triggerSubMenuAction='click'
+            theme="light"
+            mode="horizontal"
+            items={menuItems}
+            className="primary-menu"
+          />
+        </Col>
+      </Row>
+    </Header>
+  );
+};
+
+export default luxuryHeader;
