@@ -31,14 +31,14 @@ import {
     EthicalLeadership,
     SustainabilityConcept
 } from '../Screen'
-// import MenuLayout from '../Components/MenuLayout/MenuLayout'
+import MenuLayout from '../Components/MenuLayout/MenuLayout'
 import allPaths from './paths'
 
 const AppRoutes = () => {
     return (
         <Router>
             <Routes>
-                {/* <Route Component={MenuLayout}> */}
+                <Route Component={MenuLayout}>
                 <Route path={allPaths.HOME} element={<MeticulouDetail />} />
                 <Route path={allPaths.CAREERS} element={<CareersOverview />} />
                 <Route path={allPaths.GRADUATES} element={<Graduates />} />
@@ -69,7 +69,7 @@ const AppRoutes = () => {
                 <Route path={allPaths.AUDI_FOOTBALL} element={<Audifootball />} />
                 <Route path={allPaths.AUDI_MOTORSPORT} element={<Audimotorsport />} />
                 <Route path={allPaths.AUDI_WINTERSPORT} element={<AudiwinterSport />} />
-                {/* </Route> */}
+                </Route>
             </Routes>
         </Router>
     )
