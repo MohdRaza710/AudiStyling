@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-weight: normal;
 }
 
 .frImage {
@@ -1212,24 +1213,528 @@ body {
   color: #302f2f;
 }
 
-.investor-grid2 {
-  padding: 28px 56px 40px auto;
+.investor-section2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.investor-image2 {
-  width: 550px;
-  height: 300px;
-  float: left;
-  margin-left: 4.5rem;
-  margin-right: 2.5rem
+.investor-image-container {
+  flex: 0 0 60%;
 }
+
 
 .investor-heading2 {
-  font-weight: normal;
   font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .investor-heading3 {
-  font-weight: normal;
   font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+}
+
+.investor-description2 {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #4a4a4a;
+
+}
+
+.investor-point {
+
+  font-size: 12px;
+  color: #333333;
+  margin-top: 7px;
+}
+
+.investor-read-btn2 {
+
+  background: none;
+  border: 1px solid #000;
+  color: #000;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.investor-read-btn2:hover {
+  background-color: #f0f0f0;
+}
+
+.risk-frImage {
+  width: 100%;
+  height: 650px;
+}
+
+.risk-frContent {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 20px;
+}
+
+.risk-frHeading {
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.risk-frDescription {
+  font-size: 20px;
+  line-height: 1.65;
+  color: #333333;
+  margin-top: 0;
+}
+
+.risk-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+  .risk-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
+.risk-section {
+  padding: 45px 0 20px;
+}
+
+.risk-heading-content {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  padding-left: 10px;
+}
+
+.risk-heading {
+  font-size: 34px;
+  font-weight: 600;
+  color: #000;
+}
+
+.risk-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.risk-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.risk-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.risk-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.risk-more-btn {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+
+.risk-more-btn .anticon {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.media-image {
+  width: 100%;
+  height: 650px;
+}
+
+.media-content {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px
+}
+
+.media-heading {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.media-description {
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.media-btn {
+  text-align: center;
+}
+
+.media-read-btn {
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.media-read-btn:hover {
+  cursor: pointer;
+  border-color: #333333;
+  color: #333333;
+}
+
+.inno-image {
+  width: 100%;
+  height: 740px;
+}
+
+.inno-content {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px
+}
+
+.inno-heading {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.inno-description {
+  font-size: 20px;
+  line-height: 1.65;
+  color: #333333;
+}
+
+.inno-section1 {
+  padding: 45px 0 20px;
+}
+
+.inno-grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+  .inno-grid1 {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
+.inno-card1 {
+  margin-bottom: 25px;
+}
+
+.inno-image1 {
+  width: 100%;
+}
+
+.inno-title1 {
+  font-size: 25px;
+  font-weight: normal
+}
+
+.inno-description1 {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333
+}
+
+.inno-read-btn1 {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+.inno-section2 {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inno-content2 {
+  flex: 0 0 45%;
+  padding-right: 50px;
+}
+
+.inno-image-container2 {
+  flex: 0 0 55%;
+}
+
+.inno-image2 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.inno-title2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.inno-description2 {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.inno-point2 {
+  font-size: 11px;
+  color: #333;
+  margin-top: 15px;
+}
+
+.inno-read-btn2 {
+  display: inline-block;
+  background: none;
+  border: 2px solid #000;
+  color: #000;
+  text-decoration: none;
+  padding: 16px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  border-radius: 4px;
+}
+
+.inno-read-btn2:hover {
+  color: #333333;
+}
+
+.inno-grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.inno-section3 {
+  padding: 30px 0 10px;
+}
+
+.inno-heading-content {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  padding-left: 10px;
+}
+
+.inno-heading3 {
+  font-size: 34px;
+  font-weight: 500;
+  color: #000;
+}
+
+.inno-card3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.inno-image3 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.inno-date {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.inno-title3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.inno-description3 {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+
+}
+
+.inno-read-btn3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.inno-point {
+  font-size: 11px;
+  color: #777;
+  line-height: 1.3;
+}
+
+.pro-image {
+  width: 100%;
+  height: 750px;
+}
+
+.pro-content {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px
+}
+
+.pro-heading {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.pro-description {
+  font-size: 20px;
+  line-height: 1.3;
+  color: #333333;
+}
+
+.pro-gird1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.pro-image1 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.pro-title1 {
+  font-size: px;
+  font-weight: normal;
+}
+
+.pro-description1 {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.pro-read-btn1 {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.pro-point {
+  font-size: 12px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.pro-section2 {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  min-height: 450px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.pro-image-container2 {
+  flex: 0 0 55%;
+  height: 100%;
+  display: flex;
+}
+
+.pro-image2 {
+  width: 70%;
+  padding-left: 100px;
+  /* object-fit: cover; */
+  /* display: block; */
+}
+
+.pro-content2 {
+  padding-right: 50px;
+  color: #ccc;
+}
+
+.pro-title2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.pro-description2 {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.pro-read-btn2 {
+  display: inline-block;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: border-color 0.5s, color 0.5s;
+}
+
+.pro-read-btn2:hover {
+  cursor: pointer;
+  border-color: #777;
+  color: #777;
 }

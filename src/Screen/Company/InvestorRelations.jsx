@@ -10,7 +10,6 @@ import Image36 from '../../assets/image36.png'
 import { Divider, Row, Col, Button } from 'antd'
 import { RightOutlined } from '@ant-design/icons';
 
-// Styling left 
 function InvestorRelations() {
     return (
         <div>
@@ -102,13 +101,20 @@ function InvestorRelations() {
                 </div>
             </div>
             <div className='investor-section2'>
-                <img className='investor-image2' src={Image20} alt="" />
+                <div className='investor-image-container'>
+                    <img className='investor-image2' src={Image20} alt="Audi A6 Avant e-tron driving on a road" />
+                    <p className='investor-point'>
+                        Audi A6 Avant e-tron performance: electric power consumption (combined): 17.0–14.8 kWh/100 km; CO₂ <br /> emissions (combined): 0 g/km; CO₂ class: A.
+                    </p>
+                </div>
+
                 <div className='investor-grid2'>
                     <h2 className='investor-heading2'>Audi Report 2024</h2>
                     <h3 className='investor-heading3'>Annual and sustainability report</h3>
-                    <p className='investor-description2'>Welcome to the Audi Report 2024! The combined annual and sustainability report of Audi brings together the topics of strategy, finance as well as Environmental, Social and Governance (ESG).</p>
-                    <Button className='investor-read-btn2'>Read more</Button>
-                    <span className='investor-point'>Audi A6 Avant e-tron performance: electric power consumption (combined): 17.0–14.8 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.</span>
+                    <p className='investor-description2'>
+                        Welcome to the Audi Report 2024! The combined annual and sustainability report of Audi brings together the topics of strategy, finance as well as Environmental, Social and Governance (ESG).
+                    </p>
+                    <button className='investor-read-btn2'>Read more</button>
                 </div>
             </div>
         </div>
