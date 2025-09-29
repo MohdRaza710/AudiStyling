@@ -8,7 +8,6 @@ import Image49 from '../../assets/image49.png'
 import Image50 from '../../assets/image50.png'
 import { Button } from 'antd'
 
-// styling left
 function ProductInnovation() {
     return (
         <div>
@@ -58,7 +57,7 @@ function ProductInnovation() {
 
             <div className='pro-section3'>
 
-                <div className='pro-heading-content3'>
+                <div className='pro-heading-content'>
                     <h2 className='pro-heading3'>You might also be interested in </h2>
                 </div>
 
