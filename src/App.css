@@ -2921,7 +2921,7 @@ body {
 .sus-section5 {
   max-width: 1321px;
   margin: 80px auto;
-  padding: 10px 20px;
+  padding: 10px 70px;
   background-color: #000;
   color: #fff;
   height: 1300px;
@@ -3136,4 +3136,271 @@ body {
   .sus-heading7 {
     font-size: 2rem;
   }
+}
+
+.cont-image {
+  width: 100%;
+  height: 700px;
+}
+
+.cont-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.cont-heading {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.cont-description {
+  font-size: 20px;
+  color: #333333;
+}
+
+.cont-grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1200px;
+  margin: 50px auto 0;
+  padding-bottom: 50px;
+}
+
+.cont-image1 {
+  width: 100%;
+  height: auto;
+}
+
+.cont-title1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.cont-point1 {
+  font-size: 12px;
+  color: #333333;
+}
+
+.cont-description1 {
+  font-size: 16px;
+  line-height: 1.3;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.cont-link1 {
+  color: #000;
+  text-decoration: none;
+}
+
+.cont-section2 {
+  display: flex;
+  /* max-width: 1000px; */
+  /* margin-left: 70px; */
+  margin-right: auto;
+  background-color: #000;
+  color: #fff;
+  height: 500px;
+}
+
+.cont-image-content2 {
+  flex: 3;
+  padding: 50px 60px;
+}
+
+.cont-text-content2 {
+  padding: 100px 20px 80px;
+}
+
+.cont-image5 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cont-point2 {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.cont-heading2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+}
+
+.cont-title2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.cont-description2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.cont-link2 {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 25px;
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+}
+
+.cont-section3 {
+  margin: 80px auto;
+  padding: 10px 60px;
+}
+
+.cont-heading3 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.cont-grid3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.cont-card43 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-image3 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.cont-date3 {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.cont-title3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cont-description3 {
+  margin-bottom: 15px;
+}
+
+.cont-link3 {
+  text-decoration: none;
+  color: #000000;
+}
+
+.cont-point3 {
+  font-size: 0.75rem;
+  color: #333;
+  margin-top: 20px;
+  display: block;
+}
+
+.cont-section4 {
+  margin: 80px auto;
+  padding: 10px 60px;
+  background-color: #000;
+  color: #fff;
+  height: 700px;
+}
+
+.cont-heading4 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.cont-grid4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.cont-card44 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-image4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.cont-title4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cont-description4 {
+  margin-bottom: 15px;
+}
+
+.cont-link4 {
+  text-decoration: none;
+  color: #fff;
+}
+
+.cont-point4 {
+  font-size: 0.75rem;
+  margin-top: 20px;
+  display: block;
+}
+
+.image-card {
+  position: relative;
+  width: 100%;
+  /* height: auto; */
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.performance-text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 15px;
+  background-color: #000;
+  height: 40px;
+  padding: 10px 50px ;
+  padding-top: 30px;
+}
+
+.performance-text {
+  color: #E6E6E6;
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.performance-text strong {
+  font-weight: bold;
 }

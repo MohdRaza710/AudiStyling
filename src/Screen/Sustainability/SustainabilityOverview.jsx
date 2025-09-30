@@ -9,13 +9,11 @@ import Image66 from '../../assets/image66.png'
 import Image67 from '../../assets/image67.png'
 import Image68 from '../../assets/image68.png'
 import Image69 from '../../assets/image69.png'
-import Image70 from '../../assets/image70.png'
 import Image71 from '../../assets/image71.png'
 import Image72 from '../../assets/image72.png'
 import Image73 from '../../assets/image73.png'
-import { Button, Divider, Row, Col } from 'antd'
+import { Divider, Row, Col } from 'antd'
 
-// styling left
 function SustainabilityOverview() {
     return (
         <div>
