@@ -19,9 +19,9 @@ const MeticulouDetail = () => {
         <div>
             <div className='frImage'>
                 <div className='frContainer'>
-                    <h1 className='frText'>How and where is Audi using AI?</h1>
-                    <span className='frText1'>Artificial Intelligence has become an integral part of many business areas</span> <br />
-                    <Button type='default' className='learn-more'>Learn More</Button>
+                    <h1 className='frText'>Vehicle safety at Audi</h1>
+                    <span className='frText1'>When milliseconds count</span> <br />
+                    <Button type='default' className='learn-more'>Discover more</Button>
                 </div>
             </div>
             {/* <div>

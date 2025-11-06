@@ -1,4 +1,4 @@
-import MeticulouDetail from './MeticulousDetails/MeticulouDetail'
+import MeticulouDetail from './Home/MeticulouDetail'
 import AudiSportOverview from './AudiInSport/AudiSportOverview'
 import Audimotorsport from './AudiInSport/Audimotorsport'
 import AudiwinterSport from './AudiInSport/AudiwinterSport'
