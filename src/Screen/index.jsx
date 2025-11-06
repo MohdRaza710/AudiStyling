@@ -5,7 +5,6 @@ import AudiwinterSport from './AudiInSport/AudiwinterSport'
 import Audifootball from './AudiInSport/Audifootball'
 import CareersOverview from './Careers/CareersOverview'
 import Graduates from './Careers/Graduates'
-import JobPortal from './Careers/JobPortal'
 import KarriereImAutohaus from './Careers/KarriereImAutohaus'
 import Professional from './Careers/Professional'
 import SchoolStudents from './Careers/SchoolStudents'
@@ -38,7 +37,6 @@ export{
     Audifootball,
     CareersOverview,
     Graduates,
-    JobPortal,
     KarriereImAutohaus,
     Professional,
     SchoolStudents,

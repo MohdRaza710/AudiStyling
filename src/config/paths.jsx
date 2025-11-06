@@ -7,7 +7,6 @@ const STRATEGY = '/strategy'
 const PROFILE = '/profile'
 const CAREERS = '/careersoverview'
 const GRADUATES = '/graduates'
-const JOB_PORTAL = '/jobportal'
 const KARRIERE_IM_AUTOHAUS = '/karriereimautohaus'
 const PROFESSIONALS = '/professionals'
 const SCHOOL_STUDENTS = '/schoolstudents'
@@ -45,7 +44,6 @@ export default {
     STRATEGY,
     PROFILE,
     GRADUATES,
-    JOB_PORTAL,
     KARRIERE_IM_AUTOHAUS,
     PROFESSIONALS,
     SCHOOL_STUDENTS,

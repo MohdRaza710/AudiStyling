@@ -44,7 +44,7 @@ const menuItems = [
     key: '4', label: `Careers`,
     children: [
       { key: '4-1', label: <a href="/careersoverview">Overview</a> },
-      { key: '4-2', label: <a href="/jobportal">Job portal</a> },
+      { key: '4-2', label: <a href="https://careers.audi.com/desktop.html#/SEARCH/SIMPLE/">Job portal</a> },
       { key: '4-3', label: <a href="/workingataudi">Workng at Audi</a> },
       { key: '4-4', label: <a href="/schoolstudents">School Students</a> },
       { key: '4-5', label: <a href="/students">Students</a> },

@@ -6,7 +6,6 @@ import {
     AudiwinterSport,
     CareersOverview,
     Graduates,
-    JobPortal,
     KarriereImAutohaus,
     Professional,
     SchoolStudents,
@@ -42,7 +41,6 @@ const AppRoutes = () => {
                 <Route path={allPaths.HOME} element={<MeticulouDetail />} />
                 <Route path={allPaths.CAREERS} element={<CareersOverview />} />
                 <Route path={allPaths.GRADUATES} element={<Graduates />} />
-                <Route path={allPaths.JOB_PORTAL} element={<JobPortal />} />
                 <Route path={allPaths.KARRIERE_IM_AUTOHAUS} element={<KarriereImAutohaus />} />
                 <Route path={allPaths.PROFESSIONALS} element={<Professional />} />
                 <Route path={allPaths.SCHOOL_STUDENTS} element={<SchoolStudents />} />

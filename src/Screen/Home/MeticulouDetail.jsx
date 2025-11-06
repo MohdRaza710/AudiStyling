@@ -1,7 +1,6 @@
 import React from 'react'
-import Image1 from '../../assets/image1.png'
-import Image3 from '../../assets/image3.png'
-import Image2 from '../../assets/image2.png'
+import Image134 from '../../assets/image134.png'
+import Image136 from '../../assets/image136.png'
 import Image5 from '../../assets/image5.png'
 import Image6 from '../../assets/image6.png'
 import Image7 from '../../assets/image7.png'
@@ -9,6 +8,8 @@ import Image8 from '../../assets/image8.png'
 import Image9 from '../../assets/image9.png'
 import Image10 from '../../assets/image10.png'
 import Image11 from '../../assets/image11.png'
+import Image178 from '../../assets/image178.png'
+import Image179 from '../../assets/image179.png'
 import { Button } from 'antd'
 // import { useNavigate } from 'react-router-dom'
 
@@ -28,34 +29,47 @@ const MeticulouDetail = () => {
                 <p className='frText3'>Audi A6 Sedan: Combined fuel consumption in l/100 km: 7.8–4.8; combined CO₂ emissions in g/km: 177–126; CO₂ class: G–D</p>
             </div> */}
 
+            <div className='LeftPanelSection'>
+                <div className='LeftPanelColumn'>
+                    <img className='LeftPanelImage' src={Image179} alt="" />
+                    <p className='LeftPanelPoint'>The vehicle shown is a concept vehicle that is not available as a production vehicle.</p>
+                </div>
+
+                <div className='LeftPanelContainer'>
+                    <h2 className='LeftPanelHeading'>Notes From the future</h2>
+                    <p className='LeftPanelDescription'>"Clarity, focus, and commitment to implementation – that's how we are reshaping design and the company", – this is the message of CEO Gernot Döllner in notes from the future.</p>
+                    <a className='LeftPanelBtn' href="">Learn More</a>
+                </div>
+
+            </div>
+
             <div className='articles-section'>
                 <h2 className='section-title'>Current topics from the world of Audi</h2>
 
                 <div className='articles-grid'>
                     <div className='article-card'>
-                        <img className='article-image' style={{ width: '97%' }} src={Image1} alt="" />
-                        <p className='article-date'>24/07/2025</p>
-                        <h3 className='article-title'>Meticulous detail</h3>
-                        <p className='article-description'>The aerodynamics of the Audi A6 Sedan: from the front spoiler and air curtains to the spoiler lip at the rear – experts explain the design and technology.</p>
+                        <img className='article-image' src={Image178} alt="" />
+                        <p className='article-date'>20/10/2025</p>
+                        <h3 className='article-title'>Data Science and Complex Driving Systems: the Keys to Tomorrow’s Mobility</h3>
+                        <p className='article-description'>Jan Totz, data scientist specializing in autonomous driving and parking, in an interview.</p>
                         <a className='read-more-link'>Read More <i class="fa fa-arrow-right"></i></a>
-                        <span className='article-fine-print'>Audi A6 Sedan: Combined fuel consumption in l/100 km: 7.8–4.8; combined CO₂ emissions in g/km: 177–126; CO₂ class: G–D</span>
                     </div>
 
                     <div className='article-card'>
-                        <img className='article-image' src={Image2} alt="" />
-                        <p className='article-date'>17/07/2025</p>
-                        <h3 className='article-title'>All charged up! Cruising across Scandinavia with the Audi A6 Sportback e-tron</h3>
-                        <p className='article-description'>A fully electric drive with the Audi A6 Sportback e-tron through Denmark, Sweden, and Norway. Efficiency, comfort, and innovation from Copenhagen to Bergen.</p>
+                        <img className='article-image' src={Image134} alt="" />
+                        <h3 className='article-title'>Strive for clarity</h3>
+                        <p className='article-description'>The brightest moments in Audi history involved daring leaps of imagination and innovation, cutting-edge technology, and groundbreaking design. The new design philosophy "The Radical Next" builds on this legacy and is based on four principles: clear, technical, intelligent, and emotional. Through the way Audi designs its vehicles, clarity will shape the company.</p>
                         <a className='read-more-link'>Read More <i class="fa fa-arrow-right"></i></a>
-                        <span className='article-fine-print'>Audi A6 Sportback e-tron performance: Electric power consumption (combined): 16–14,0 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.</span>
+                        <p className='article-fine-print'>The vehicle referred to is a concept car that is not available in series production.</p>
                     </div>
 
                     <div className='article-card'>
-                        <img className='article-image' src={Image3} alt="" />
-                        <p className='article-date'>09/07/2025</p>
-                        <h3 className='article-title'>Smooth sailing through the toll stations</h3>
-                        <p className='article-description'>With the toll box from Audi and Tolltickets, you can travel comfortably through Europe – no need to stop, no need for cash, just a completely convenient in-car experience.</p>
+                        <img className='article-image' src={Image136} alt="" />
+                        <p className='article-date'>07/09/2025</p>
+                        <h3 className='article-title'>Clarity is a way of life</h3>
+                        <p className='article-description'>„Strive for clarity“ ist ein Leitmotiv für Audi. Dieses Mindset wird im Audi Concept C erlebbar – und von Schauspieler Harris Dickinson gelebt.</p>
                         <a className='read-more-link'>Read More <i class="fa fa-arrow-right"></i></a>
+                        <p className='article-fine-print'>The vehicle referred to is a concept car that is not available in series production.</p>
                     </div>
                 </div>
             </div>
