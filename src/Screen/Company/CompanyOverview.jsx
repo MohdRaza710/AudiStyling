@@ -83,14 +83,10 @@ function CompanyOverview() {
                     </div>
                 </div>
             </div>
+            
             <div className="report-section">
                 <div className="report-image-container">
                     <img src={Image20} alt="Audi A6 Avant e-tron" />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
                     <p className="image-caption">
                         Audi A6 Avant e-tron performance: electric power consumption (combined): 17.0–14.8 kWh/100 km; CO₂ emissions (combined): 0 g/km; CO₂ class: A.
                     </p>
@@ -104,6 +100,7 @@ function CompanyOverview() {
                     <a href="#" className="read-more-button">Read more</a>
                 </div>
             </div>
+
             <div className='volks-div'>
                 <h3 className='volks-heading'>Audi is ab brand of VOLKSWAGEN GROUP</h3>
                 <a href="#" className='learn-more-button'>learn more</a>
